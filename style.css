@@ -149,7 +149,6 @@ color: green;
     width: 20%px;
     
 }
-
 #github{
     background-color: #0c1014;
     color: white;
@@ -222,8 +221,9 @@ section{
 }
 
 .btn:hover{
-    background:darkgreen;
-    letter-spacing: .4rem;
+    background:green;
+    letter-spacing: .3rem;
+    border-radius: 30px;
 }
 #saurabh{
     color: rgb(0, 162, 226);
@@ -253,8 +253,6 @@ header{
     position: fixed;
     top:0; left:0; bottom:0;
     background:black;
-
-   
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -264,7 +262,9 @@ header{
     width:30rem;
     text-align: center;
 }
-
+header:hover{
+    background-color: grey;
+}
 header .logo{
     text-transform: uppercase;
     color:#fff;
@@ -284,17 +284,17 @@ header .logo span{
 
 header .navbar a{
     display: block;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color:#fff;
     margin:2rem 0;
 }
 
 header .navbar a:hover{
-    letter-spacing:1rem;
+    letter-spacing:0.5rem;
     font-weight: bolder;
     font-size: 2rem;
 
-  color: white;
+  color: teal;
 }
 
 header .follow a{
@@ -395,9 +395,7 @@ cursor: pointer;
     color:var(--main-color);
     text-transform: uppercase;
 }
-#mrs:hover{
-    color: rgb(0, 162, 226);
-}
+
 
 .home .content .info{
     font-size: 4rem;
