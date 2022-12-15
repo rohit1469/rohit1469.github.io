@@ -223,7 +223,7 @@ section{
 .btn:hover{
     background:green;
     letter-spacing: .3rem;
-    border-radius: 30px;
+    border-radius: 28px;
 }
 #saurabh{
     color: rgb(0, 162, 226);
