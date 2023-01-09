@@ -60,7 +60,7 @@
     -webkit-perspective: 600px;
     z-index: -1;
 }
-.star-field .layer {
+/* .star-field .layer {
     box-shadow: -411px -476px #cccccc, 777px -407px #d4d4d4, -387px -477px #fcfcfc, -91px -235px #d4d4d4, 491px -460px #f7f7f7, 892px -128px #f7f7f7, 758px -277px #ededed, 596px 378px #cccccc, 647px 423px whitesmoke, 183px 389px #c7c7c7,
         524px -237px #f0f0f0, 679px -535px #e3e3e3, 158px 399px #ededed, 157px 249px #ededed, 81px -450px #ebebeb, 719px -360px #c2c2c2, -499px 473px #e8e8e8, -158px -349px #d4d4d4, 870px -134px #cfcfcf, 446px 404px #c2c2c2,
         440px 490px #d4d4d4, 414px 507px #e6e6e6, -12px 246px #fcfcfc, -384px 369px #e3e3e3, 641px -413px #fcfcfc, 822px 516px #dbdbdb, 449px 132px #c2c2c2, 727px 146px #f7f7f7, -315px -488px #e6e6e6, 952px -70px #e3e3e3,
@@ -78,7 +78,7 @@
     height: 4px;
     width: 4px;
     border-radius: 2px;
-}
+} */
 .star-field .layer:nth-child(1) {
     animation: sf-fly-by-1 5s linear infinite;
 }
@@ -112,6 +112,16 @@
 }
 
 /*  Back To top csss */
+
+#zoom:hover{
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    cursor: pointer;
+
+}
+
+
 
 #btn-back-to-top {
     position: fixed;
